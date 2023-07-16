@@ -5,7 +5,7 @@ const config = {
   name: 'Local',
   connector: 'ibmi',
   dsn: '',
-  connectionString: 'SYSTEM=10.0.0.28;DBQ=TOOLSHOP_DEV,XONKVHU,KVHUTSTLIB,ABWLIBKVHU;',
+  connectionString: `DRIVER=IBM i Access ODBC driver;UID=MAQU;PWD=hiwX!EbT%6Mp9$F;SYSTEM=10.0.0.28;DBQ=TOOLSHOP_DEV,XONKVHU,KVHUTSTLIB,ABWLIBKVHU;`,
   user: 'MAQU',
   password: 'hiwX!EbT%6Mp9$F'
 };

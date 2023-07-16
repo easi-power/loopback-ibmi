@@ -1,6 +1,10 @@
 import {Entity, model, property} from '@loopback/repository';
 
-@model()
+@model({
+  settings: {
+    ibmi: {table: 'users2'}
+  }
+})
 export class User extends Entity {
   @property({
     type: 'number',
