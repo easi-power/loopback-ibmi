@@ -5,7 +5,7 @@ const config = {
   name: 'Local',
   connector: 'ibmi',
   dsn: '',
-  connectionString: '',
+  connectionString: 'SYSTEM=10.0.0.28;DBQ=TOOLSHOP_DEV,XONKVHU,KVHUTSTLIB,ABWLIBKVHU;',
   user: 'MAQU',
   password: 'hiwX!EbT%6Mp9$F'
 };
